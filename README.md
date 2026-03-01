@@ -7,63 +7,63 @@ An interactive pathfinding visualization tool that implements Greedy Best-First 
 - Dynamic Grid Sizing: Configurable grid dimensions (5x5 to 20x20)
 - Fixed Start & Goal: Clearly marked start (green) and goal (red) positions
 - Random Map Generation: Generate mazes with user-defined obstacle density
-- Interactive Map Editor: Three editing modes (Wall/Start/Goal) with simple click-based interface
+- Interactive Map Editor: Three editing modes (Wall/Start/Goal) with simple click-based interface<br/>
 **Algorithms**
 - Greedy Best-First Search (GBFS): Uses only heuristic evaluation f(n) = h(n)
 - *A Search: Uses combined evaluation f(n) = g(n) + h(n)
 Heuristic Functions:
 - Manhattan Distance (4-directional movement)
-- Euclidean Distance (diagonal movement)
+- Euclidean Distance (diagonal movement)<br/>
 **Dynamic Mode**
   - Random obstacle spawning during agent transit
 - Real-time path detection and replanning
-- Efficient recalculation only when path is blocked
+- Efficient recalculation only when path is blocked<br/>
 **Visualization**
 - Frontier Nodes: Highlighted in orange
 - Visited Nodes: Highlighted in light blue
 - Final Path: Highlighted in yellow
-- Start/Goal: Green and red respectively
+- Start/Goal: Green and red respectively<br/>
 
 Real-time Metrics Dashboard
 - Nodes Visited
 - Path Cost
 - Execution Time (ms)
 - Current Density setting
-- Active algorithm and heuristic
+- Active algorithm and heuristic<br/>
 
 **Installation**<br/>
 Prerequisites
 - Python 3.6 or higher
-- pip package manager
+- pip package manager<br/>
 
 Install required packages<br/>
-- pip install pygame numpy
+- pip install pygame numpy<br/>
 Run the application: python pathfinding_agent.py <br/><br/>
 
-**How to Use**
-Initial Setup:
-When prompted, enter grid size (5-20)
-The application window will open with a 6x6 grid (or your chosen size)
+**How to Use** <br/>
+Initial Setup:<br/>
+When prompted, enter grid size (5-20)<br/>
+The application window will open with a 6x6 grid (or your chosen size)<br/>
 
 **Controls**
 - Mode Selection (Click Buttons)
 - Wall Mode: Click on grid cells to toggle walls (gray)
 - Start Mode: Click on empty cell to set start position (green)
-- Goal Mode: Click on empty cell to set goal position (red)
+- Goal Mode: Click on empty cell to set goal position (red)<br/>
 
 **Algorithm Selection**
 - A* button: Switch to A* search
-- GBFS button: Switch to Greedy Best-First Search
+- GBFS button: Switch to Greedy Best-First Search<br/>
 
 **Heuristic Selection**
 - Manhattan button: Use Manhattan distance
-- Euclidean button: Use Euclidean distance
+- Euclidean button: Use Euclidean distance<br/>
 
 **Actions**
 - Random button: Generate random walls with current density
 - Clear button: Clear entire grid
 - Find Path button: Find path using selected algorithm
-- Dynamic button: Toggle dynamic mode (agent moves automatically)
+- Dynamic button: Toggle dynamic mode (agent moves automatically)<br/>
 
 **Workflow Example:**
 - Click Start Mode, then click a cell to set start (green)
