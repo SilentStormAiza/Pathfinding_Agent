@@ -1,0 +1,13 @@
+!pip install pygame numpy
+import pygame
+import numpy as np
+import heapq
+import time
+import random
+
+**Dependencies**
+pygame: GUI and visualization
+numpy: Grid manipulation
+heapq: Priority queue for search algorithms
+random: Obstacle generation
+time: Performance metrics
