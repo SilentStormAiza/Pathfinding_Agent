@@ -15,7 +15,7 @@ Heuristic Functions:
 - Manhattan Distance (4-directional movement)
 - Euclidean Distance (diagonal movement)<br/>
 **Dynamic Mode**
-  - Random obstacle spawning during agent transit
+- Random obstacle spawning during agent transit
 - Real-time path detection and replanning
 - Efficient recalculation only when path is blocked<br/>
 **Visualization**
